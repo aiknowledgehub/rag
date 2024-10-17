@@ -18,8 +18,6 @@ Thank you for considering contributing to the RAG platform! We welcome contribut
 
 4. **Writing Code**
    - Fork the repository and create a new branch for your feature or bug fix.
-   - Ensure your code adheres to the project’s coding standards.
-   - Write unit tests for your new features or bug fixes.
    - Submit a pull request and provide a clear description of the changes.
 
 ## Getting Started
