@@ -10,6 +10,7 @@ Welcome to the **RAG Knowledge Hub**—your one-stop resource for everything rel
 - [How to Contribute](#how-to-contribute)
 - [RAG Frameworks](#rag-frameworks)
 - [RAG Tools and Libraries](#rag-tools-and-libraries)
+- [RAG Platforms and Solutions](#rag-platforms-and-solutions) <!-- Added to Table of Contents -->
 - [Tutorials and Guides](#tutorials-and-guides)
 - [Videos and Talks](#videos-and-talks)
 - [Datasets](#datasets)
@@ -59,6 +60,16 @@ Handy tools and libraries to assist in building RAG solutions.
 | **FAISS**                 | Efficient similarity search library for retrieval  | [GitHub](https://github.com/facebookresearch/faiss)                                        |
 | **DPR (Dense Passage Retrieval)** | Open-source code for dense retrieval models | [GitHub](https://github.com/facebookresearch/DPR)                                          |
 | **ColBERT**               | Efficient passage retrieval via late interaction   | [GitHub](https://github.com/stanford-futuredata/ColBERT)                                   |
+
+---
+
+## RAG Platforms and Solutions
+
+Explore practical platforms and services that provide robust RAG pipelines, making it easier to integrate RAG into real-world applications.
+
+| Name                      | Description                                        | Link                                                                                       |
+|---------------------------|----------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Vectorize**             | AI-powered platform for building production-ready RAG pipelines. Automates data preparation and vector search integration for LLMs. | [Website](https://vectorize.io)                                                           |
 
 ---
 
@@ -132,4 +143,3 @@ If you find this repository helpful, please give us a star!
 ---
 
 *Let's build and advance the field of Retrieval-Augmented Generation together!*
-
