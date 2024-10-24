@@ -80,6 +80,7 @@ Get started with RAG using these helpful tutorials.
 | Title                             | Description                                       | Link                                                                                         |
 |-----------------------------------|---------------------------------------------------|----------------------------------------------------------------------------------------------|
 | **Introduction to Retrieval Augmented Generation (RAG)**      | Basic concepts of RAG      | [Weaviate](https://weaviate.io/blog/introduction-to-rag)
+| **What is Retrieval-Augmented Generation (RAG)?** | A concise guide on RAG's architecture, benefits, and applications. | [DataStax Guide](https://www.datastax.com/guides/what-is-retrieval-augmented-generation)
 
 ---
 
