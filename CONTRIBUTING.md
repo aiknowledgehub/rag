@@ -1,33 +1,49 @@
+# Contributing to Awesome RAG
 
-# Contributing to RAG Platform
+First off — **thank you!** 🙌 This list stays valuable because people like you keep it current. Whether you're adding a tool, fixing a typo, or reporting a dead link, your contribution is welcome.
 
-Thank you for considering contributing to the RAG platform! We welcome contributions from everyone, whether you're a beginner or an experienced developer.
+## What belongs here
 
-## How Can You Contribute?
+A resource is a good fit if it is:
 
-1. **Reporting Bugs**
-   - Check the issues page to see if the bug has already been reported.
-   - If not, open a new issue and include clear steps to reproduce the bug.
+- **Relevant** — directly about Retrieval-Augmented Generation (frameworks, vector DBs, embeddings, retrieval/reranking, parsing, evaluation, datasets, papers, or learning material).
+- **High quality** — actively maintained, well documented, and genuinely useful.
+- **Real and reachable** — the link works and points to the canonical source (official site, GitHub repo, arXiv, or Hugging Face).
 
-2. **Proposing New Features**
-   - Before working on new features, open an issue to discuss your idea.
-   - Once the idea is approved, you can start working on it and submit a pull request.
+When in doubt, open an issue first to discuss — we're friendly.
 
-3. **Improving Documentation**
-   - Found a typo or a section that can be improved? Feel free to open a pull request with your changes.
+## How to add a resource
 
-4. **Writing Code**
-   - Fork the repository and create a new branch for your feature or bug fix.
-   - Submit a pull request and provide a clear description of the changes.
+1. **Fork** this repository and create a branch:
+   ```bash
+   git checkout -b add-my-resource
+   ```
+2. **Find the right section** in `README.md` (Frameworks, Vector Databases, Evaluation, etc.).
+3. **Add one table row**, keeping the existing format and alphabetical-ish / quality ordering:
+   ```markdown
+   | **Resource Name** | One crisp line on what it does and why it's useful | [Site](https://example.com) · [GitHub](https://github.com/org/repo) |
+   ```
+4. **Keep descriptions to a single line** — clear, neutral, no marketing fluff.
+5. **Commit and push**, then open a Pull Request using the template.
 
-## Getting Started
+## Style guide
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b my-contribution-branch`
-3. Make your changes and commit: `git commit -m 'Added a new contribution'`
-4. Push to your branch: `git push origin my-contribution-branch`
-5. Open a pull request to the `main` branch.
+- One resource per row; **bold** the name.
+- Descriptions: ~6–15 words, present tense, no period needed.
+- Prefer the project's GitHub link; add a Site link when it adds value.
+- No affiliate links, no link shorteners, no self-promotion spam.
+- Don't duplicate an entry that already exists in another section.
 
-## Thank You!
+## Reporting issues
 
-Your contributions make this project better. Thank you for helping out!
+- 🔗 **Broken or outdated link?** Open an issue with the section and entry.
+- 💡 **Suggesting a resource but can't open a PR?** Open an issue — we'll add it.
+- 🧹 **Spotted a better description or wrong attribution?** PRs welcome.
+
+## Code of conduct
+
+Be respectful and constructive. We're here to help each other learn and build. Harassment or spam won't be tolerated.
+
+---
+
+Every accepted contribution is appreciated and credited via your commit. Thank you for helping the RAG community! 💛

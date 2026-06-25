@@ -1,0 +1,24 @@
+name: "🔗 Report a broken or outdated entry"
+description: Tell us about a dead link or an entry that's out of date.
+title: "[Fix]: <what's broken>"
+labels: ["broken link"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      placeholder: e.g. "Marker" under Document Parsing & Chunking
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: Broken link, renamed project, deprecated tool, wrong description, etc.
+    validations:
+      required: true
+  - type: input
+    id: correct
+    attributes:
+      label: Correct link or info (if known)
+      placeholder: https://github.com/new-org/new-repo

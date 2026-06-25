@@ -1,0 +1,57 @@
+name: "💡 Suggest a resource"
+description: Suggest a RAG framework, tool, dataset, paper, or tutorial to add to the list.
+title: "[Resource]: <name>"
+labels: ["resource suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: e.g. LangChain
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Canonical URL (official site, GitHub, arXiv, or Hugging Face).
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section?
+      options:
+        - RAG Techniques
+        - Frameworks & Orchestration
+        - End-to-End & Open-Source RAG Apps
+        - Vector Databases
+        - ANN / Vector Search Libraries
+        - Embedding Models & Providers
+        - Retrieval & Reranking
+        - Document Parsing & Chunking
+        - Evaluation & Observability
+        - Datasets & Benchmarks
+        - Tutorials, Courses & Cookbooks
+        - Videos & Talks
+        - Research Papers
+        - Other / Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: A crisp, neutral sentence on what it does and why it's useful.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: This resource is actively maintained and the link works.
+          required: true
+        - label: It isn't already in the list.
+          required: true
